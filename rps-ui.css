@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: blanchedalmond;
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.replay, h1 {
+    display: none;
+    align-self: center;
+    color: aliceblue;
+}
+h1 {
+  font-size: 80px;
+  font-weight: 600;
+  text-align: center;
+}
+.new-game .replay, .new-game h1 {
+    display: block;
+}
+.new-game .scores, .new-game .game-play {
+    display: none;
+}
+.scores {
+    color: teal;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    border: 3px solid rgb(14, 140, 140);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.game-play {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+button {
+    cursor: pointer;
+    padding: 5px 20px;
+    background-color: rgb(14, 140, 140);
+    color: aliceblue;
+    font-size: large;
+}
